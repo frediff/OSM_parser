@@ -7,7 +7,6 @@ the attributes for those elements. The purpose of this project is to develop a s
 reads data about various artifacts on the map, and provide a text searchable interface to the
 map.* 
 <p align="justify">
-An OSM file of the Kharagpur area is given to you for reference.
 Two particular elements of the OSM format, are of interest.
 • “node”: This represents a particular place on the map, e.g. a shop, building, etc. It has an id, latitude, and longitude. Additionally, some node elements have a “name” attribute which describes the place.
 • “way”: This represents a path or a line through the map, and is denoted by a sequence of node elements. This element also has an id, and optionally a name describing it.</p>
