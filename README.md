@@ -8,8 +8,8 @@ reads data about various artifacts on the map, and provide a text searchable int
 map.* </i></p>
 <p align="justify">
 Two particular elements of the OSM format, are of interest.
-• “node”: This represents a particular place on the map, e.g. a shop, building, etc. It has an id, latitude, and longitude. Additionally, some node elements have a “name” attribute which describes the place.
-• “way”: This represents a path or a line through the map, and is denoted by a sequence of node elements. This element also has an id, and optionally a name describing it.</p>
+- “node”: This represents a particular place on the map, e.g. a shop, building, etc. It has an id, latitude, and longitude. Additionally, some node elements have a “name” attribute which describes the place.
+- “way”: This represents a path or a line through the map, and is denoted by a sequence of node elements. This element also has an id, and optionally a name describing it.</p>
 
 ### Use case 1:
 > Parse a given OSM file and extract the node and way elements from the file along with their attributes. It should print the total number nodes and ways discovered in the given file. It allow a user to search for a particular element by matching input string with substring of the name.
