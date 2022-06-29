@@ -19,10 +19,10 @@ Two particular elements of the OSM format, are of interest.
 </p>
 
 ### Use case 1:
-> Parse a given OSM file and extract the node and way elements from the file along with their attributes. It should print the total number nodes and ways discovered in the given file. It allow a user to search for a particular element by matching input string with substring of the name.
+> This involves parsing a given OSM file and extracting the node and way elements from the file along with their attributes and then printing the total number nodes and ways discovered in the given file. It allows a user to search for a particular element by matching input string with substring of the name.
 
 ### Use case 2:
-> Find the k-closest nodes to a given node using the crow fly distance. Here k is a user input. Use the latitude, longitude information of nodes to calculate the distance. An algorithm is followed that uses heaps and runs in ```O(N + K * LOG(K))``` time.
+> This involves finding the k-closest nodes to a given node using the crow fly distance. Here k is a user input. The latitude and longitude information of nodes is used to calculate the distance. An algorithm is followed that uses heaps and runs in ```O(N + K * LOG(K))``` time.
 
 ### Use case 3:
-> Calculate the shortest path between two node elements, through the way elements. The distance on a way is the sum of distances between consecutive node elements in the way. Also the path is printed. An efficient version of Djikstra algorithm is followed that runs very fast.
+> This involves calculating the shortest path between two node elements, through the way elements. The distance on a way is the sum of distances between consecutive node elements in the way. Also the path is printed. An efficient version of Djikstra algorithm is followed that runs very fast.
