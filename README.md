@@ -1,11 +1,6 @@
 # OSM_parser
 <p align="justify"><i>
-<a href="https://www.openstreetmap.org">Openstreetmap</a> is a free and open resource which provides high
-quality map data for all areas in the world. They provide the data in the OSM format which can
-be downloaded from their website. OSM is an xml-based format, which has various elements and
-the attributes for those elements. The purpose of this project is to develop a software which
-reads data about various artifacts on the map, and provide a text searchable interface to the
-map. </i></p>
+<a href="https://www.openstreetmap.org">Openstreetmap</a> is a free and open resource which provides high quality map data for all areas in the world. They provide the data in the OSM format which can be downloaded from their website. OSM is an XML-based format, which has various elements and the attributes for those elements. The purpose of this project is to develop a software which reads data about various artefacts on the map, and provide a text searchable interface to the map. </i></p>
 <p align="justify">
 Two particular elements of the OSM format, are of interest.
 <ul>
