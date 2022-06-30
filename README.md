@@ -5,7 +5,7 @@ quality map data for all areas in the world. They provide the data in the OSM fo
 be downloaded from their website. OSM is an xml-based format, which has various elements and
 the attributes for those elements. The purpose of this project is to develop a software which
 reads data about various artifacts on the map, and provide a text searchable interface to the
-map.* </i></p>
+map. </i></p>
 <p align="justify">
 Two particular elements of the OSM format, are of interest.
 <ul>
@@ -19,7 +19,7 @@ Two particular elements of the OSM format, are of interest.
 </p>
 
 ### Use case 1:
-> This involves parsing a given OSM file and extracting the node and way elements from the file along with their attributes and then printing the total number nodes and ways discovered in the given file. It allows a user to search for a particular element by matching input string with substring of the name.
+> This involves parsing a given OSM file and extracting the node and way elements from the file along with their attributes and then printing the total number nodes and ways discovered in the given file. It allows a user to search for a particular element by matching input string with sub-string of the name.
 
 ### Use case 2:
 > This involves finding the k-closest nodes to a given node using the crow fly distance. Here k is a user input. The latitude and longitude information of nodes is used to calculate the distance. An algorithm is followed that uses heaps and runs in ```O(N + K * LOG(K))``` time.
